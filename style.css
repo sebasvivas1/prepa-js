@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1a202c;
+  color: #ffffff;
+}
+
+.container {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  width: 35%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 1rem;
+  font-weight: 300;
+  /* margin-right: 10px; */
+}
+
+.searchButton {
+  background-color: #0ec65e;
+  border: none;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  padding: 10px 20px;
+  /* margin-left: 10px; */
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.searchButton:hover {
+  background-color: #0e984a;
+  transition: 0.3s;
+}
+
+.results {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  background-color: #2d3748;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 600px;
+}
+
+.songImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.songInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.songTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.songArtist {
+  font-size: 1rem;
+  font-weight: 300;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Finder</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <h1 class="title">SPOTIFINDER</h1>
+        <h4 class="subtitle">
+          Find your favorite artists and see their popular songs
+        </h4>
+      </section>
+      <section class="input-container">
+        <input
+          type="text"
+          name="query"
+          id="query"
+          class="searchInput"
+          placeholder="Busca tu artista favorito"
+        />
+        <button type="button" class="searchButton" id="searchButton">
+          Buscar
+        </button>
+      </section>
+      <section id="results" class="results"></section>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
